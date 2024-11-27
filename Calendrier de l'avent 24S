@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Calendar Allocation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 20px;
+        }
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 80%;
+        }
+        table, th, td {
+            border: 1px solid #000;
+        }
+        th, td {
+            padding: 10px;
+            background-color: #fff;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chocolate Calendar Allocation</h1>
+    <p>Check daily to see who is selected for the chocolate!</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Lindt</th>
+                <th>Kinder Bueno</th>
+                <th>Kinder</th>
+                <th>Ferrero Rocher</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Allocation Data -->
+            <tr>
+                <td>1</td>
+                <td>Marion</td>
+                <td>Romain</td>
+                <td>Myriam S</td>
+                <td>Liam</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Aude</td>
+                <td>Agathe</td>
+                <td>Emma M</td>
+                <td>Maria</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Philippine</td>
+                <td>Manon</td>
+                <td>Axelle</td>
+                <td>Maud</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Emma G</td>
+                <td>Thibaut</td>
+                <td>Myriam F</td>
+                <td>Victoria</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Chlo&eacute;</td>
+                <td>Lola</td>
+                <td>Andrea</td>
+                <td>Claire</td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+</body>
+</html>
